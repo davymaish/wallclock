@@ -1,0 +1,77 @@
+    html {
+      background-size:cover;
+      font-family:'helvetica neue';
+      text-align: center;
+      font-size: 10px;
+    }
+
+    body {
+      margin: 0;
+      font-size: 2rem;
+      display:flex;
+      flex:1;
+      height: 100vh;
+      justify-content: center;
+    }
+    .board {
+      position: relative;
+      width: auto;
+      height: 90vh;
+      margin: auto;
+      background: url("img/clock.jpg") no-repeat;
+      background-position: center;
+      background-size: contain;
+    }
+
+    .clock {
+      width: 50vh;
+      height: 90vh;
+      margin: auto;
+      position: relative;
+    }
+
+    button {
+      position: absolute;
+    }
+
+    .clock-face {
+      position: relative;
+      width: 45%;
+      height: 100%;
+      margin: auto;
+    }
+
+    .hand {
+      width:50%;
+      height:0.5vh;
+      background:black;
+      position: absolute;
+      top:50%;
+      transform-origin: 100%;
+      transform: rotate(90deg);
+      transition: all 0.05s;
+      transition-timing-function: cubic-bezier(0.1, 2.7, 0.58, 1);
+    }
+
+    .hour-hand {
+      height:1vh;
+    }
+
+    .min-hand {
+      height:0.8vh;
+      background: navy;
+    }
+
+    .second-hand {
+      background: red;
+    }
+
+    .credits {
+      height: 10vh;
+      padding: 0px 2px;
+      color: white;
+      background-color: blue;
+      display: flex; 
+      align-items: center; 
+      justify-content: center;
+    }
