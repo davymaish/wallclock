@@ -30,4 +30,4 @@ This project is licensed under the [MIT License](LICENSE).
 For any inquiries or feedback, feel free to contact me via:
 
 - Website: [davymaish.github.io](https://davymaish.github.io)
-- Email: [davidmainadmg05@gmail.com](mailto:davidmainadmg05@gmail.com)
+- Email: [davymaish6@gmail.com](mailto:davymaish6@gmail.com)
